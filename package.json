@@ -1,5 +1,6 @@
 {
   "name": "pacman",
+  "main": "main.js",
   "scripts": {
     "start": "electron ."
   },
