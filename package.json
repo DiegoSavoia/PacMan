@@ -1,0 +1,9 @@
+{
+  "name": "lista-de-tareas",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^19.0.1"
+  }
+}
