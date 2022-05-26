@@ -1,0 +1,52 @@
+body {
+    background-color:black;
+}
+
+h1 {
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+}
+
+p {
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#title {
+    text-align: center;
+}
+#subtitle {
+    text-align: center;
+}
+
+#skins-pacman {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+    border-style: groove;
+    border-color: gray;
+}
+
+#skins-mspacman {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+    border-style: groove;
+    border-color: gray;
+}
+
+#skins {
+    text-align: center;
+    margin-top: 5%;
+}
+
+#button-block {
+    text-align: center;
+    margin-top: 5%;
+}
+
+#button {
+    font-family: 'Press Start 2P', cursive;
+}
