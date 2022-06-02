@@ -16,7 +16,7 @@ function createWindow () {
     }
   })
 
-  mainWindow.loadFile('menu-skins.html')
+  mainWindow.loadFile('index.html')
 
 }
 
