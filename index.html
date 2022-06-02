@@ -4,33 +4,36 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
+    <title>PacMan</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='index.css'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <script src='main.js'></script>
+    <script defer src="functions/index.js"></script>
 </head>
 
+
 <body>
-    <div id="main">
-        <div id="topbar">
+    <div id="topbar">
+        <p id="title">PacMan</p>
+        <img class="topbar_buttons" id="close" src="img/cerrar.png"/>
+        <img class="topbar_buttons" id="maximize" src="img/maximizar.png"/>
+        <img class="topbar_buttons" id="minimize" src="img/minimizar.png"/>
+    </div>
+    <div id="menu-inicio">
+        <img id="logo" src="img/pac man logo.webp"/>
 
-        </div>
-        <div id="menu-inicio">
-            <img src="pac man logo.webp"/>
+        <h3 id="menu">Menu</h3>
 
-            <h3 id="menu">Menu</h3>
+        <div id="options">
+            <h6 class="button" id="play">Play</h6>
+            <h6 class="button" id="score">Score</h6>
+            <h6 class="button" id="skin">Skin</h6>
+            <h6 class="button" id="exit">Exit</h6>
+        </div>           
 
-            <div id="options">
-                <h6 class="button" id="play">Play</h6>
-                <h6 class="button" id="score">Score</h6>
-                <h6 class="button" id="skin">Skin</h6>
-                <h6 class="button" id="exit">Exit</h6>
-            </div>           
-
-        </div>
     </div>
 
 
