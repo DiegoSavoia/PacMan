@@ -1,0 +1,53 @@
+body {
+    background-color:black;
+    -webkit-app-region: drag
+}
+
+h3 {
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    margin-top: 30px;
+}
+
+h6 {
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    border-style: groove;
+    border-color: gray;
+    border-radius: 10px;
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 0 10px 0;
+}
+
+p {
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#title {
+    text-align: center;
+}
+
+#subtitle {
+    text-align: center;
+}
+
+img {
+    text-align: center;
+    width:60%;
+}
+
+#menu-inicio {
+    text-align: center;
+    margin: auto;
+}
+
+#options {
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+}
