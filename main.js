@@ -1,5 +1,9 @@
-const {app, BrowserWindow} = require('electron')
+const {app, BrowserWindow, ipcMain, ipcRenderer} = require('electron')
 const path = require('path')
+
+try{
+  require("electron-reloader")(module)
+} catch(_) {}
 
 function createWindow () {
   const mainWindow = new BrowserWindow({
@@ -30,4 +34,28 @@ app.whenReady().then(() => {
 
 app.on('window-all-closed', function () {
   if (process.platform !== 'darwin') app.quit()
+})
+
+ipcMain.on("minimize", () => {
+  mainWindow.minimize()
+})
+
+ipcMain.on("maximizeRestoreApp", () => {
+  if (mainWindow.isMaximized()){
+    mainWindow.unmaximize()
+  } else{
+    mainWindow.maximize()
+  }
+})
+
+mainWindow.on("maximize", () =>{
+  ipcMain.webContents.send("isMaximised")
+})
+
+mainWindow.on("restore", () =>{
+  ipcMain.webContents.send("isRestored")
+})
+
+ipcMain.on("close", () => {
+  mainWindow.close()
 })
