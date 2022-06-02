@@ -1,53 +1,57 @@
+#topbar {
+    height: 30px;
+    background-color: #3C3C3C;
+    -webkit-app-region: drag
+}
+
+#title {
+    float: left;
+    color: #BABABA;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.topbar_buttons {
+    float: right;
+    height: inherit;
+}
+
 body {
     background-color:black;
-    -webkit-app-region: drag
+}
+
+#menu-inicio {
+    text-align: center;
+    margin: auto;
+    clear: both;
+}
+
+#logo {
+    text-align: center;
+    width:50%;
 }
 
 h3 {
     color: white;
     font-family: 'Press Start 2P', cursive;
     text-align: center;
-    margin-top: 30px;
-}
-
-h6 {
-    color: white;
-    font-family: 'Press Start 2P', cursive;
-    border-style: groove;
-    border-color: gray;
-    border-radius: 10px;
-    width: 50%;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 15px 0 10px 0;
-}
-
-p {
-    color: white;
-    font-family: 'Press Start 2P', cursive;
-}
-
-#title {
-    text-align: center;
-}
-
-#subtitle {
-    text-align: center;
-}
-
-img {
-    text-align: center;
-    width:60%;
-}
-
-#menu-inicio {
-    text-align: center;
-    margin: auto;
+    margin-top: 25px;
 }
 
 #options {
     margin: auto;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 45px;
+}
+
+.button {
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    border-style: groove;
+    border-color: gray;
+    border-radius: 10px;
+    width: 40%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 0 10px 0;
 }
