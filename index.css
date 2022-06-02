@@ -1,12 +1,15 @@
 #topbar {
     height: 30px;
     background-color: #3C3C3C;
-    -webkit-app-region: drag
+    display: flex;
+    flex-direction: row;
 }
 
 #title {
-    float: left;
     color: #BABABA;
+    width: 100%;
+    background-color: red;
+    -webkit-app-region: drag;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
