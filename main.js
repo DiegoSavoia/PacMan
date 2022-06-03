@@ -1,4 +1,4 @@
-const { app, BrowserWindow, ipcMain, ipcRenderer } = require('electron')
+const { app, BrowserWindow, ipcMain } = require('electron')
 const path = require('path')
 
 try {
@@ -34,12 +34,12 @@ function createWindow() {
     }
   })
 
-  mainWindow.on("maximize", () => {
-    ipcMain.webContents.send("isMaximised")
+  ipcMain.on("maximize", () => {
+    ipcMain.webContents.send('isMaximised')
   })
 
-  mainWindow.on("restore", () => {
-    ipcMain.webContents.send("isRestored")
+  ipcMain.on("restore", () => {
+    ipcMain.webContents.send('isRestored')
   })
 
   ipcMain.on("close", () => {
