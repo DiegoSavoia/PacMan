@@ -3,6 +3,7 @@ const { ipcRenderer } = require("electron")
 const minimizeBtn = document.getElementById("minimize");
 const maxResBtn = document.getElementById("maximize");
 const closeBtn = document.getElementById("close");
+const exitBtn = document.getElementById("exit")
 
 minimizeBtn.addEventListener("click", () => {
     ipcRenderer.send("minimize")
@@ -13,6 +14,10 @@ maxResBtn.addEventListener("click", () => {
 })
     
 closeBtn.addEventListener("click", () => {
+    ipcRenderer.send("close")
+})
+
+exitBtn.addEventListener("click", () => {
     ipcRenderer.send("close")
 })
 
@@ -35,3 +40,11 @@ ipcRenderer.on("isMaximized", () => {
 ipcRenderer.on("isRestored", () => {
     changeMaxResBtn(false)
 })
+
+function redirectSkins() {
+    location.replace("menu-skins.html")
+}
+
+function redirectIndex() {
+    location.replace("index.html")
+}
