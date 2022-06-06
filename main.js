@@ -20,7 +20,7 @@ function createWindow() {
     }
   })
 
-  mainWindow.loadFile('index.html')
+  mainWindow.loadFile('menu-skins.html')
 
   ipcMain.on("minimize", () => {
     mainWindow.minimize()
