@@ -6,6 +6,45 @@ h1 {
     color: white;
     font-family: 'Press Start 2P', cursive;
 }
+#topbar {
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    background-color: #3f3f3f;
+}
+
+#name {
+    color: #BABABA;
+    width: 100%;
+    -webkit-app-region: drag;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.topbar_buttons {
+    float: right;
+    height: inherit;
+    border: none;
+    
+    width: 40px;
+   
+}
+ #minimize{
+    background-image: url(img/minimizar.png);
+    background-repeat: no-repeat;
+   
+   
+}
+ #maximize{
+    background-image: url(img/maximizar.png);
+    background-repeat: no-repeat;
+    
+}
+ #close{
+    background-image: url(img/cerrar.png);
+    background-repeat: no-repeat;
+   
+    
+}
 
 p {
     color: white;
