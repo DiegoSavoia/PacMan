@@ -19,6 +19,9 @@ body {
     width: 100%;
     -webkit-app-region: drag;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 1%;
 }
 
 .topbar_buttons {
@@ -46,27 +49,28 @@ body {
    
     
 }
-h1 {
+#title{
    margin-top: 10%;
    color: white;
    font-family: 'Press Start 2P', cursive;
    text-align: center;
 }
-h2{
+#user{
    margin-top: 5%;
    color: white;
    font-family: 'Press Start 2P', cursive;
    text-align: center;
 }
-p{
-    margin: 5%;
-    color: white;
-    font-family: 'Press Start 2P', cursive;
-    text-align: center;
+#score{
+    margin-bottom: 10%;
+}
+#addname{
+    margin-top: 5%;
 }
 #button{
     margin-top: 5%;
     border-radius: 5%;
+    text-align: center;
 }
 #yes{
     margin-right: 2%;
@@ -76,7 +80,7 @@ p{
     color: white;
     font-family: 'Press Start 2P', cursive;
     text-align: center;
-   
+    border-color: gray;
 }
 #no{
     margin-left: 2%;
@@ -86,5 +90,6 @@ p{
     color: white;
     font-family: 'Press Start 2P', cursive;
     text-align: center;
+    border-color: gray;
     
 }
