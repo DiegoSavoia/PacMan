@@ -22,7 +22,7 @@ function createWindow() {
     }
   })
 
-  mainWindow.loadFile('menu-final.html')
+  mainWindow.loadFile('index.html')
 
   ipcMain.on("minimize", () => {
     mainWindow.minimize()
