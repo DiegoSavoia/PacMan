@@ -21,6 +21,9 @@ h1 {
     width: 100%;
     -webkit-app-region: drag;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 1%;
 }
 
 .topbar_buttons {
@@ -86,9 +89,13 @@ p {
 
 #button-block {
     text-align: center;
-    margin-top: 5%;
+    margin-top: 2.5%;
 }
 
 #button {
     font-family: 'Press Start 2P', cursive;
+}
+
+#general-title{
+    margin-top: 5%;
 }
