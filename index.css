@@ -6,7 +6,7 @@
     height: 30px;
     display: flex;
     flex-direction: row;
-    background-color: #3f3f3f;
+    background-image: linear-gradient(to right, red , yellow);
 }
 
 #name {
@@ -29,19 +29,20 @@
 }
  #minimize{
     background-image: url(img/minimizar.png);
-    background-repeat: no-repeat;
-   
+    
+    background-size: 40px 31px;
    
 }
  #maximize{
-    background-image: url(img/maximizar.png);
+    background-image: url(img/restaurar.png);
     background-repeat: no-repeat;
+    background-size: 40px 30px;
     
 }
  #close{
     background-image: url(img/cerrar.png);
     background-repeat: no-repeat;
-   
+    background-size: 40px 30px;
     
 }
 
