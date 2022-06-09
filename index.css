@@ -14,6 +14,9 @@
     width: 100%;
     -webkit-app-region: drag;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 1%;
 }
 
 .topbar_buttons {
@@ -81,4 +84,5 @@ h3 {
     margin-left: auto;
     margin-right: auto;
     padding: 15px 0 10px 0;
+    user-select: none;
 }
