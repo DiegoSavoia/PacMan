@@ -1,9 +1,10 @@
 const {app, BrowserWindow, ipcMain, ipcRenderer} = require('electron')
 const path = require('path')
 
-try{
-  require("electron-reloader")(module)
-} catch(_) {}
+require('electron-reload')(__dirname, {
+  electron: path.join(__dirname, 'node_modules', '.bin', 'electron'),
+  hardResetMethod: 'exit'
+});
 
 function createWindow () {
   const mainWindow = new BrowserWindow({
@@ -21,6 +22,18 @@ function createWindow () {
   })
 
   mainWindow.loadFile('index.html')
+
+  mainWindow.on("maximize", () =>{
+    mainWindow.webContents.send("isMaximised")
+  })
+  
+  mainWindow.on("restore", () =>{
+    mainWindow.webContents.send("isRestored")
+  })
+  
+  ipcMain.on("close", () => {
+    mainWindow.close()
+  })
 
 }
 
@@ -46,16 +59,4 @@ ipcMain.on("maximizeRestoreApp", () => {
   } else{
     mainWindow.maximize()
   }
-})
-
-mainWindow.on("maximize", () =>{
-  ipcMain.webContents.send("isMaximised")
-})
-
-mainWindow.on("restore", () =>{
-  ipcMain.webContents.send("isRestored")
-})
-
-ipcMain.on("close", () => {
-  mainWindow.close()
 })
