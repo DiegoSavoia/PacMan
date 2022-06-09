@@ -4,19 +4,46 @@
 
 #topbar {
     height: 30px;
-    background-color: #3C3C3C;
-    -webkit-app-region: drag
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(to right, red , yellow);
 }
 
-#title {
-    float: left;
+#name {
     color: #BABABA;
+    width: 100%;
+    -webkit-app-region: drag;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 1%;
 }
 
 .topbar_buttons {
     float: right;
     height: inherit;
+    border: none;
+    background-color: transparent;
+    width: 40px;
+   
+}
+ #minimize{
+    background-image: url(img/minimizar.png);
+    
+    background-size: 40px 31px;
+   
+}
+ #maximize{
+    background-image: url(img/restaurar.png);
+    background-repeat: no-repeat;
+    background-size: 40px 30px;
+    
+}
+ #close{
+    background-image: url(img/cerrar.png);
+    background-repeat: no-repeat;
+    background-size: 40px 30px;
+    
 }
 
 body {
@@ -59,4 +86,5 @@ h3 {
     margin-right: auto;
     margin-top: 20px;
     padding: 15px 0 10px 0;
+    user-select: none;
 }

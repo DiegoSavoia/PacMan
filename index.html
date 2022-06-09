@@ -11,16 +11,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <script src='main.js'></script>
-    <script defer src="functions/index.js"></script>
+    <script defer src="functions/principal.js"></script>
 </head>
 
 
 <body>
     <div id="topbar">
-        <p id="title">PacMan</p>
-        <img class="topbar_buttons" id="close" src="img/cerrar.png"/>
-        <img class="topbar_buttons" id="maximize" src="img/maximizar.png"/>
-        <img class="topbar_buttons" id="minimize" src="img/minimizar.png"/>
+        <p id="name">PacMan</p>
+        <button class="topbar_buttons" id="minimize"></button> 
+        <button class="topbar_buttons" id="maximize"></button> 
+        <button class="topbar_buttons" id="close"></button> 
     </div>
     <div id="menu-inicio">
         <img id="logo" src="img/pac man logo.webp"/>
@@ -30,7 +30,7 @@
         <div id="options">
             <h6 class="button" id="play">Play</h6>
             <h6 class="button" id="score">Score</h6>
-            <h6 class="button" id="skin">Skin</h6>
+            <h6 class="button" id="skin" onclick="redirectSkins()">Skin</h6>
             <h6 class="button" id="exit">Exit</h6>
         </div>           
 

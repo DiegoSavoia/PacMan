@@ -8,9 +8,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <script defer src="functions/index.js"></script>
     <title>PacMan</title>
+    <script defer src="functions/principal.js"></script>
 </head>
 <body>
+    <div id="topbar">
+        <p id="name">PacMan</p>
+        <button class="topbar_buttons" id="minimize"></button> 
+        <button class="topbar_buttons" id="maximize"></button> 
+        <button class="topbar_buttons" id="close"></button> 
+    </div>
     <div id="general-title">
         <h1 id="title">Skins</h1>
         <p id="subtitle">Choose your skin</p>
@@ -26,7 +34,7 @@
         </div>
     </div>
     <div id="button-block">
-        <button id="button" type="button">Aceptar</button>
+        <button id="button" type="button" onclick="redirectIndex()">Accept</button>
     </div>
 </body>
 </html>

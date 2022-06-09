@@ -9,17 +9,23 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-     
+    <script defer src="functions/principal.js"></script>
     <script src='main.js'></script>
 </head>
 <body>
+    <div id="topbar">
+        <p id="name">PacMan</p>
+        <button class="topbar_buttons" id="minimize"></button> 
+        <button class="topbar_buttons" id="maximize"></button> 
+        <button class="topbar_buttons" id="close"></button> 
+    </div>
     <div id="title">
-        <h1>SCORE</h1>
+        <h1 id="score">SCORE</h1>
         <H2>123456</H2>
     </div>
-    <div id="name">
-        <p>Add name:</p>
-        <input type="text">
+    <div id="user">
+        <p >Add name:</p>
+        <input type="text" id="addname">
         
     </div>
     <div id="button">
