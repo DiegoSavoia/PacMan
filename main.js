@@ -11,7 +11,8 @@ require('electron-reload')(__dirname, {
 function createWindow() {
   const mainWindow = new BrowserWindow({
     width: 800,
-   
+   minWidth:800,
+   minHeight:600,
     height: 600,
     
     frame: false,
@@ -25,7 +26,7 @@ function createWindow() {
     }
   })
 
-  mainWindow.loadFile('index.html')
+  mainWindow.loadFile('menu-final.html')
 
   ipcMain.on("minimize", () => {
     mainWindow.minimize()
