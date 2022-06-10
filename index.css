@@ -58,7 +58,13 @@ body {
 
 #logo {
     text-align: center;
-    width:50%;
+    margin-top: 5%;
+    width:40%;
+}
+#phantoms{
+   width: 20%;
+    
+    
 }
 
 h3 {
