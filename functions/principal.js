@@ -6,7 +6,7 @@ const closeBtn = document.getElementById("close");
 const exitBtn = document.getElementById("exit")
 
 minimizeBtn.addEventListener("click", () => {
-    ipcRenderer.send("minimize")
+    ipcRenderer.send("minimizeApp")
 })
   
 maxResBtn.addEventListener("click", () => {
@@ -14,22 +14,22 @@ maxResBtn.addEventListener("click", () => {
 })
     
 closeBtn.addEventListener("click", () => {
-    ipcRenderer.send("close")
+    ipcRenderer.send("closeApp")
 })
 
 exitBtn.addEventListener("click", () => {
-    ipcRenderer.send("close")
+    ipcRenderer.send("closeApp")
 })
 
 function changeMaxResBtn(isMaximizedApp){
     if(isMaximizedApp){
         maxResBtn.title = "Restore"
-        maxResBtn.classList.remove("maximizeBtn")
-        maxResBtn.classList.add("restoreBtn")
+        maxResBtn.classList.remove("maximize")
+        maxResBtn.classList.add("restore")
     } else {
         maxResBtn.title = "Maximize"
-        maxResBtn.classList.remove("restoreBtn")
-        maxResBtn.classList.add("maximizeBtn")
+        maxResBtn.classList.remove("restore")
+        maxResBtn.classList.add("maximize")
     }
 }
 
