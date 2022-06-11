@@ -61,3 +61,7 @@ fetch('components/nav.html')
     function redirectIndex() {
         location.replace("index.html")
     }
+
+    function redirectScore() {
+        location.replace("menu-final.html")
+    }
