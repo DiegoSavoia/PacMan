@@ -7,48 +7,7 @@
 body {
     background-color:black;
 }
-#topbar {
-    height: 30px;
-    display: flex;
-    flex-direction: row;
-    background-color: #3f3f3f;
-}
 
-#name {
-    color: #BABABA;
-    width: 100%;
-    -webkit-app-region: drag;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: 1%;
-}
-
-.topbar_buttons {
-    float: right;
-    height: inherit;
-    border: none;
-    
-    width: 40px;
-   
-}
- #minimize{
-    background-image: url(img/minimizar.png);
-    background-repeat: no-repeat;
-   
-   
-}
- #maximize{
-    background-image: url(img/maximizar.png);
-    background-repeat: no-repeat;
-    
-}
- #close{
-    background-image: url(img/cerrar.png);
-    background-repeat: no-repeat;
-   
-    
-}
 #title{
    margin-top: 10%;
    color: white;
