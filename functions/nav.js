@@ -36,11 +36,8 @@ fetch('components/nav.html')
     })
 
     function changeMaxResBtn(isMaximizedApp){
-        closeBtn.title = "Close"
-        minimizeBtn.title = "Minimize"
         if(isMaximizedApp){
-            maxResBtn.title = "Restore"
-           
+            maxResBtn.title = "Restore"           
             maxResBtn.classList.remove("maximize")
             maxResBtn.classList.add("restore")
         } else {
