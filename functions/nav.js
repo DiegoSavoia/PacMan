@@ -27,6 +27,7 @@ fetch('components/nav.html')
             
         closeBtn.addEventListener("click", () => {
             ipcRenderer.send("closeApp")
+            
         })
 
         exitBtn.addEventListener("click", () => {
@@ -35,8 +36,11 @@ fetch('components/nav.html')
     })
 
     function changeMaxResBtn(isMaximizedApp){
+        closeBtn.title = "Close"
+        minimizeBtn.title = "Minimize"
         if(isMaximizedApp){
             maxResBtn.title = "Restore"
+           
             maxResBtn.classList.remove("maximize")
             maxResBtn.classList.add("restore")
         } else {

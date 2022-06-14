@@ -26,29 +26,29 @@ body {
 #addname{
     margin-top: 5%;
 }
-#button{
+.button{
     margin-top: 5%;
     border-radius: 5%;
     text-align: center;
-}
-#yes{
     margin-right: 2%;
     padding: 1%;
-    background-color: black;
     border-radius: 5px;
     color: white;
     font-family: 'Press Start 2P', cursive;
     text-align: center;
     border-color: gray;
+    background-color: transparent;
+    border-style: groove;
+    user-select: none;
 }
-#no{
-    margin-left: 2%;
-    padding: 1%;
-    background-color: black;
-    border-radius: 5px;
-    color: white;
-    font-family: 'Press Start 2P', cursive;
+#buttons{
     text-align: center;
-    border-color: gray;
-    
+}
+.zoom {
+    transition: transform .2s; 
+}
+  
+.zoom:hover {
+    transform: scale(1.02); 
+    background-color: #ffffff3b;
 }

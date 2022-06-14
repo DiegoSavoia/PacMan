@@ -46,6 +46,14 @@ body {
     padding: 1% 0 0.7% 0;
     user-select: none;
 }
+.zoom {
+    transition: transform .2s; 
+}
+  
+.zoom:hover {
+    transform: scale(1.02); 
+    background-color: #ffffff3b;
+}
 
 @media only screen and (max-width:1150px){
 
