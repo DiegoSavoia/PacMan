@@ -24,7 +24,7 @@ function createWindow() {
     }
   })
 
-  mainWindow.loadFile('index.html')
+  mainWindow.loadFile('html/index.html')
 
   ipcMain.on("minimizeApp", () => {
     mainWindow.minimize()

@@ -24,24 +24,24 @@
 }
 
 .minimize {
-    background-image: url(img/minimizar.png);    
+    background-image: url(../img/minimizar.png);    
     background-size: 40px 31px;   
 }
 
 .maximize {
-    background-image: url(img/maximizar.png);
+    background-image: url(../img/maximizar.png);
     background-repeat: no-repeat;
     background-size: 40px 30px;    
 }
 
 .restore {
-    background-image: url(img/restaurar.png);
+    background-image: url(../img/restaurar.png);
     background-repeat: no-repeat;
     background-size: 40px 30px;    
 }
 
 .close{
-    background-image: url(img/cerrar.png);
+    background-image: url(../img/cerrar.png);
     background-repeat: no-repeat;
     background-size: 40px 30px;    
 }
