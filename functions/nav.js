@@ -4,7 +4,7 @@ var minimizeBtn = null;
 var maxResBtn = null;
 var closeBtn = null; 
 
-fetch('components/nav.html')
+fetch('../components/nav.html')
     .then(res => res.text())
     .then(htmlNav => {
         let oldElement = document.querySelector("script#replace_with_navbar");
