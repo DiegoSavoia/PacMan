@@ -1,0 +1,22 @@
+#back{
+    text-align: center;
+}
+
+#back_btn{
+    margin-top: 5%;
+    text-align: center;
+    padding: 1%;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    border-color: gray;
+    border-radius: 5px;
+    border-style: groove;
+    background-color: transparent;
+    user-select: none;
+    transition: transform .2s;
+}
+
+#back_btn:hover {
+    transform: scale(1.02); 
+    background-color: #ffffff3b;
+}
