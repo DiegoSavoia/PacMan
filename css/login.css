@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+   
+}
+html,body{
+    background-image: url(../img/login-background.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+.container{
+    height: calc(100% - 30px);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+
+}
+#login{
+    background-color: rgba(0, 0, 0, 0.726);
+    letter-spacing: 2px;
+    font-size: large;
+    border-radius: 10px;
+    position: relative;
+    min-width:30%;
+    text-align: center;
+    padding: 30px 30px;
+    border-radius: 20px;
+}
+.login-text{
+    font-family: 'Press Start 2P', cursive;
+    font-size:3vw;
+    width: 16vw;
+    background:linear-gradient(to right, rgb(255, 0, 0), rgb(255, 255, 0),rgb(0, 234, 255),rgb(255, 0, 187)) ;
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin: auto;
+}
+::placeholder { 
+    color: rgb(255, 255, 255);
+    opacity: 1; 
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+}
+.form{
+    display:flex;
+    flex-direction: column;
+   
+}
+input{
+    border: none;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    float: left;
+   width: 16vw;
+   height: 1.5em;
+   animation-iteration-count: 1;
+   animation: ease-in-out;
+   margin-top: 10%;  
+   font-family: 'Roboto', sans-serif;
+}
+#password{
+
+
+}
+#user{
+
+}
+input:focus {
+    outline: none;
+    border-bottom: 2px solid pink ;
+    animation: border 1s;
+    animation-iteration-count: 1;
+    width: 100%;
+
+}
+
+@keyframes border {
+    0%   {width:16vw;}
+    100% {width: 100%;}
+}
+
+.button {
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    border-style: groove;
+    border-color: gray;
+    border-radius: 10px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:10%;
+    padding: 1% 1% 0.7% 1%;
+    user-select: none;
+    background-color: transparent;
+}
+.account{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    margin-top: 10%;
+}
+
+.zoom {
+    transition: transform .2s; 
+}
+  
+.zoom:hover {
+    transform: scale(1.02); 
+    background-color: #ffffff3b;
+}

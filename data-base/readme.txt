@@ -11,14 +11,14 @@ Id-skins
 SKINS
 Id
 Id-color
-Id-sombrero
+Id-accesorio
 Id-usuario
 
 COLORSKIN
 color
 Id
 
-SOMBRERO SKIN
-sombrero
+ACCESORIO SKIN
+accesorio
 Id
 
