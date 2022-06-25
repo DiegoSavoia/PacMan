@@ -22,7 +22,8 @@ html,body{
 
 }
 #login{
-    background-color: rgba(0, 0, 0, 0.726);
+    background-color: rgba(0, 0, 0, 0.868);
+    border: rgba(255, 255, 255, 0.626) 2px solid;
     letter-spacing: 2px;
     font-size: large;
     border-radius: 10px;
@@ -46,8 +47,7 @@ html,body{
 ::placeholder { 
     color: rgb(255, 255, 255);
     opacity: 1; 
-    font-size: 1.5em;
-    letter-spacing: 0.1em;
+    
 }
 .form{
     display:flex;
@@ -59,16 +59,36 @@ input{
     background-color: transparent;
     color: rgb(255, 255, 255);
     float: left;
+    font-size: 1.2em;
    width: 16vw;
    height: 1.5em;
    animation-iteration-count: 1;
    animation: ease-in-out;
    margin-top: 10%;  
    font-family: 'Roboto', sans-serif;
+   clear: both;
+}
+
+.eye{
+    position: absolute;
+    right: 1vw;
+    bottom: 0.5vw;
+    z-index: 10;
+}
+#hide1,#hide2{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+#hide1{
+    display: none;
+}
+.eye img{
+    width: 1.5em;
 }
 #password{
 
-
+position: relative;
 }
 #user{
 
@@ -78,13 +98,13 @@ input:focus {
     border-bottom: 2px solid pink ;
     animation: border 1s;
     animation-iteration-count: 1;
-    width: 100%;
+    width: 97%;
 
 }
 
 @keyframes border {
-    0%   {width:16vw;}
-    100% {width: 100%;}
+    0%   {width: 25%;}
+    100% {width: 97%;}
 }
 
 .button {
