@@ -11,51 +11,69 @@ body{
 #title{
     text-align: center;
     margin-top: 5%;
+
 }
 
 #high-score{
     display: flex;
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 2%;
+    margin-top: 3%;
+    
 }
 
 #rank{
     text-align: center;
-    flex: 1 2 20px;
+    flex: 1 2 50px;
+    background:linear-gradient(to top, rgb(255, 0, 0), rgb(255, 255, 0),rgb(0, 234, 255),rgb(255, 0, 187)) ;
+    color: transparent;
+    -webkit-background-clip: text;
 }
 
 #score{
     text-align: center;
     flex: 2 2 50px;
+    
 }
 
 #player{
     text-align: center;
     flex: 1 2 50px;
+    
 }
 
 #personal{
     display: flex;
+    
 }
 
 #personal-rank{
     text-align: center;
     flex: 1 2 50px;
+    
+    
 }
 
 #personal-score{
     text-align: center;
     flex: 1 2 50px;
+    
 }
 
 #personal-user{
     text-align: center;
     flex: 1 2 50px;
+    
 }
 
 #personal-title{
     text-align: center;
     margin-top: 2%;
     margin-bottom: 2%;
+    
+}
+
+.category-title{
+    margin-bottom: 20px;
+    
 }
