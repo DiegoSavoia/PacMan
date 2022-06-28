@@ -11,9 +11,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-    <script src='../functions/main.js'></script>
-    <script src='../functions/login.js'></script>
-    <script defer src="../functions/principal.js"></script>
+    <script src='../main.js'></script> 
 </head>
 <body>
     <script id="replace_with_navbar" src="../functions/nav.js"></script> 
@@ -22,17 +20,15 @@
           
             <h1 class="login-text">LOGIN</H1>
             <form action="" class="form">
-                <div id="user">
+                <div id="userHolder">
                     
-                    <input  type="text" placeholder="Username">
+                    <input id="user" type="text" placeholder="Username">
                 </div>
                
-                <div id="password">
-                    <input type="password" placeholder="Password">
-                    <div class="eye">
-                        <img id="hide1" src="../img/eye closed.png" alt="">
-                        <img id="hide2" src="../img/eye open.png" alt="">
-                    </div>
+                <div id="passwordHolder">
+                    <input id="password" type="password" placeholder="Password">    
+                    <a id="ojo" class="eye closed">
+                    </a>
                 </div>
             </form>
             
@@ -41,6 +37,6 @@
         </div>
       
     </div>
-    
+    <script src='../functions/login.js'></script>
 </body>
 </html>

@@ -58,6 +58,7 @@ input{
     border: none;
     background-color: transparent;
     color: rgb(255, 255, 255);
+    border-bottom: 2px solid transparent;
     float: left;
     font-size: 1.2em;
    width: 16vw;
@@ -72,26 +73,31 @@ input{
 .eye{
     position: absolute;
     right: 1vw;
-    bottom: 0.5vw;
+    bottom: 0.2vw;
     z-index: 10;
+    width: 2em;
+    height: 1em;
 }
-#hide1,#hide2{
-    position: absolute;
-    right: 0;
-    bottom: 0;
+.closed{
+    background-image: url(../img/eyeclosed.png);
+    background-repeat: no-repeat;
+    background-size:1.5em;    
+    color: transparent;
+    background-color: transparent;
+    border:none;
 }
-#hide1{
-    display: none;
+.open{
+    background-image: url(../img/eyeopen.png);
+    background-repeat: no-repeat;
+    background-size:1.5em;    
+    color: transparent;
+    background-color: transparent;
+    border:none;
 }
-.eye img{
-    width: 1.5em;
-}
-#password{
 
+
+#passwordHolder{
 position: relative;
-}
-#user{
-
 }
 input:focus {
     outline: none;
