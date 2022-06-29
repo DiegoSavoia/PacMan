@@ -1,5 +1,7 @@
 *{
     margin: 0;
+    user-select: none;
+    margin-bottom: 5px;
 }
 
 body{

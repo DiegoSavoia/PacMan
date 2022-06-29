@@ -28,7 +28,7 @@ html,body{
     font-size: large;
     border-radius: 10px;
     position: relative;
-    min-width:30%;
+    min-width:35%;
     text-align: center;
     padding: 30px 30px;
     border-radius: 20px;
@@ -43,11 +43,12 @@ html,body{
     margin-top: 10%;
     margin-bottom: 10%;
     margin: auto;
+    user-select: none;
 }
 ::placeholder { 
-    color: rgb(255, 255, 255);
+    color: rgb(165, 165, 165);
     opacity: 1; 
-    
+    user-select: none;
 }
 .form{
     display:flex;
@@ -61,13 +62,13 @@ input{
     border-bottom: 2px solid transparent;
     float: left;
     font-size: 1.2em;
-   width: 16vw;
-   height: 1.5em;
-   animation-iteration-count: 1;
-   animation: ease-in-out;
-   margin-top: 10%;  
-   font-family: 'Roboto', sans-serif;
-   clear: both;
+    width: 16vw;
+    height: 1.5em;
+    animation-iteration-count: 1;
+    animation: ease-in-out;
+    margin-top: 10%;  
+    font-family: 'Roboto', sans-serif;
+    clear: both;
 }
 
 .eye{
@@ -99,6 +100,7 @@ input{
 #passwordHolder{
 position: relative;
 }
+
 input:focus {
     outline: none;
     border-bottom: 2px solid pink ;
@@ -131,6 +133,7 @@ input:focus {
     font-family: 'Roboto', sans-serif;
     font-size: 1em;
     margin-top: 10%;
+    user-select: none;
 }
 
 .zoom {
