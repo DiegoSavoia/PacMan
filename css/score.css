@@ -2,6 +2,8 @@
     margin: 0;
     user-select: none;
     margin-bottom: 5px;
+    padding: 0;
+    list-style-type: none;
 }
 
 body{
@@ -78,8 +80,4 @@ body{
 .category-title{
     margin-bottom: 20px;
     font-size: x-large;
-}
-
-.scores{
-    list-style-type: none;
 }

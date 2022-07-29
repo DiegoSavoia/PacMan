@@ -11,9 +11,11 @@ function scoreToHTML(score, index){
 }
 
 function renderRank() {
-    scoreRank.innerHTML = scoreList.map((score, index) => {
-      return scoreToHTML(score, index);
-    })
+    scoreRank.innerHTML = "";
+    
+    scoreList.forEach((score, index) => {
+    scoreRank.innerHTML += scoreToHTML(score, index);
+  })
 }
 
 renderRank()
