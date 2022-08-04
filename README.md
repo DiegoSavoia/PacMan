@@ -26,7 +26,7 @@ Siendo todos los integrantes del equipo alumnos de 6° año de Programación en 
 
 El siguiente es el listado de las tareas ya realizadas, junto al miembro del equipo que se ha encargado de hacerlas.
 
-:heavy_check_mark: HTML para Top Bar - *Martina Belén Coria* <br />
+:heavy_check_mark: HTML para Top Bar - ***Martina Belén Coria*** <br />
 :heavy_check_mark: CSS para Top Bar - *Celina Burunov Guerrero* <br />
 :heavy_check_mark: Funcionalidad de botones “Minimizar” “Expandir/Comprimir” “Cerrar” de la Top Bar - *Diego Agustín Savoia* <br />
 :heavy_check_mark: HTML y CSS para un Login de inicio de sesión - *Celina Burunov Guerrero* <br />
