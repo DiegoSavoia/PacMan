@@ -22,6 +22,12 @@ Este proyecto se encuentra integrado por el siguiente equipo de trabajo:
 
 Siendo todos los integrantes del equipo alumnos de 6° año de Programación en la escuela secundaria EPET N°12, decidimos recrear el famoso juego PacMan como parte de un proyecto integrador para el Laboratorio de Construcción de Software, materia que todos cursamos en común. Nuestro objetivo colectivo es poder finalizar este juego antes del fin del ciclo lectivo.
 
+<h2> Entornos, herramientas y lenguajes </h2>
+
+Para llevar a cabo el proyecto estaremos utilizando distinto lenguajes tales como JavaScript, HTML y CSS. En cuanto a los entornos, nos encontraremos utilizando Visual Studio Code para programar y Electron para ejecutar la aplicación.
+
+Contaremos además con algunos programas y herramientas adicionales tales como NodeJS, MongoDB, GitHub, StackEdit, Coolors, entre otros.
+
 <h2> Estructura del proyecto </h2>
 
  - **components**
