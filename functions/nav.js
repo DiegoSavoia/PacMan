@@ -62,9 +62,12 @@ fetch('../components/nav.html')
     function redirectIndex() {
         location.replace("index.html")
     }
+    function redirectLogin() {
+        location.replace("login.html")
+    }
 
     function redirectScore() {
-        location.replace("menu-final.html")
+        location.replace("score.html")
     }
     
     function redirectGame() {

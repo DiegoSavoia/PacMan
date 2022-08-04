@@ -1,9 +1,11 @@
 *{
     margin: 0;
+    user-select: none;
 }
 
-body {
+html, body {
     background-color:black;
+    height: 100%;
 }
 
 #menu-inicio {
