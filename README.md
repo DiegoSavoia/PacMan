@@ -2,7 +2,7 @@
 
 <p align="center">
 
-<img width="400" src="img/pac man logo.webp" alt="PacMan">
+<img width="400" src="img/logo.png" alt="PacMan">
 
 </p>
 
@@ -57,6 +57,4 @@ El siguiente es el listado de las tareas ya realizadas, junto al miembro del equ
 :grey_question: Creación de aspectos personalizados para Pacman
 :grey_question: Creación de Mapas personalizados
 :grey_question: Menú para explorar aspectos creados por otros jugadores
-
-
 
