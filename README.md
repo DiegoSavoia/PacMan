@@ -2,7 +2,7 @@
 
 <p align="center">
 
-<img width="150" src="img/pac man logo.webp" alt="PacMan">
+<img width="400" src="img/pac man logo.webp" alt="PacMan">
 
 </p>
 
