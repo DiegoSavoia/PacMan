@@ -26,19 +26,19 @@ Siendo todos los integrantes del equipo alumnos de 6° año de Programación en 
 
 El siguiente es el listado de las tareas ya realizadas, junto al miembro del equipo que se ha encargado de hacerlas.
 
-:heavy_check_mark: HTML para Top Bar - <p style="color:#FBC63B"> Martina Belén Coria </p> <br />
-:heavy_check_mark: CSS para Top Bar - Celina Burunov Guerrero <br />
-:heavy_check_mark: Funcionalidad de botones “Minimizar” “Expandir/Comprimir” “Cerrar” de la Top Bar - <p style="color:#E50611"> Diego Agustín Savoia </p> <br />
-:heavy_check_mark: HTML y CSS para un Login de inicio de sesión - <p style="color:#EEA8C1"> Celina Burunov Guerrero </p> <br />
-:heavy_check_mark: Funcionalidad de “ojo” para mostrar/ocultar contraseña - Celina Burunov Guerrero <br />
-:heavy_check_mark: HTML y CSS de Menú principal - Martina Belén Coria <br />
-:heavy_check_mark: Menú de puntajes - Diego Agustín Savoia <br />
-:heavy_check_mark: Funcionalidad para actualizar lista de nombre y puntaje de jugadores - Diego Agustín Savoia <br />
-:heavy_check_mark: HTML y CSS del menú de skins - Diego Agustín Savoia <br />
-:heavy_check_mark: Botones auxiliares funcionales tales como “Back” o “Exit” - Martina Belén Coria <br />
-:heavy_check_mark: Conceptos de tablas para futura base de datos y relación entre estas - Celina Burunov Guerrero <br />
-:heavy_check_mark: Función de navegación entre pantallas - Diego Agustín Savoia <br />
-:heavy_check_mark: Creación de iconos para Top Bar - Martina Belén Coria <br />
+:heavy_check_mark: HTML para Top Bar - *Martina Belén Coria* <br />
+:heavy_check_mark: CSS para Top Bar - *Celina Burunov Guerrero* <br />
+:heavy_check_mark: Funcionalidad de botones “Minimizar” “Expandir/Comprimir” “Cerrar” de la Top Bar - *Diego Agustín Savoia* <br />
+:heavy_check_mark: HTML y CSS para un Login de inicio de sesión - *Celina Burunov Guerrero* <br />
+:heavy_check_mark: Funcionalidad de “ojo” para mostrar/ocultar contraseña - *Celina Burunov Guerrero* <br />
+:heavy_check_mark: HTML y CSS de Menú principal - *Martina Belén Coria* <br />
+:heavy_check_mark: Menú de puntajes - *Diego Agustín Savoia* <br />
+:heavy_check_mark: Funcionalidad para actualizar lista de nombre y puntaje de jugadores - *Diego Agustín Savoia* <br />
+:heavy_check_mark: HTML y CSS del menú de skins - *Diego Agustín Savoia* <br />
+:heavy_check_mark: Botones auxiliares funcionales tales como “Back” o “Exit” - *Martina Belén Coria* <br />
+:heavy_check_mark: Conceptos de tablas para futura base de datos y relación entre estas - *Celina Burunov Guerrero* <br />
+:heavy_check_mark: Función de navegación entre pantallas - *Diego Agustín Savoia* <br />
+:heavy_check_mark: Creación de iconos para Top Bar - *Martina Belén Coria* <br />
 
 <h2>Tareas a realizar </h2>
 
