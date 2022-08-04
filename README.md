@@ -4,7 +4,7 @@
 
 <img width="400" src="img/logo.png" alt="PacMan">
 
-</p> <br/>
+</p>
 
 <h1 align="center">PacMan</h1>
 
