@@ -22,5 +22,41 @@ Este proyecto se encuentra integrado por el siguiente equipo de trabajo:
 
 Siendo todos los integrantes del equipo alumnos de 6° año de Programación en la escuela secundaria EPET N°12, decidimos recrear el famoso juego PacMan como parte de un proyecto integrador para el Laboratorio de Construcción de Software, materia que todos cursamos en común. Nuestro objetivo colectivo es poder finalizar este juego antes del fin del ciclo lectivo.
 
+<h2>Tareas realizadas </h2>
+
+El siguiente es el listado de las tareas ya realizadas, junto al miembro del equipo que se ha encargado de hacerlas.
+
+:heavy_check_mark: HTML para Top Bar - Martina Belén Coria
+:heavy_check_mark: CSS para Top Bar - Celina Burunov Guerrero
+:heavy_check_mark: Funcionalidad de botones “Minimizar” “Expandir/Comprimir” “Cerrar” de la Top Bar - Diego Agustín Savoia
+:heavy_check_mark: HTML y CSS para un Login de inicio de sesión - Celina Burunov Guerrero
+:heavy_check_mark: Funcionalidad de “ojo” para mostrar/ocultar contraseña - Celina Burunov Guerrero
+:heavy_check_mark: HTML y CSS de Menú principal - Martina Belén Coria
+:heavy_check_mark: Menú de puntajes - Diego Agustín Savoia 
+:heavy_check_mark: Funcionalidad para actualizar lista de nombre y puntaje de jugadores - Diego Agustín Savoia
+:heavy_check_mark: HTML y CSS del menú de skins - Diego Agustín Savoia
+:heavy_check_mark: Botones auxiliares funcionales tales como “Back” o “Exit” - Martina Belén Coria
+:heavy_check_mark: Conceptos de tablas para futura base de datos y relación entre estas - Celina Burunov Guerrero
+:heavy_check_mark: Función de navegación entre pantallas - Diego Agustín Savoia
+:heavy_check_mark: Creación de iconos para Top Bar - Martina Belén Coria
+
+<h2>Tareas a realizar </h2>
+
+:grey_question: Creación de base de datos
+:grey_question: Mapa del juego
+:grey_question: Modelos de jugador
+:grey_question: Modelos de enemigos
+:grey_question: Texturas
+:grey_question: Inteligencia de enemigos
+:grey_question: Sistema de colisiones
+:grey_question: Funcionalidad de objetos
+:grey_question: Funcionalidad de contador
+:grey_question: Conexión a base de datos
+:grey_question: Medidor de puntajes más altos
+:grey_question: Envío de datos desde la app a la base de datos
+:grey_question: Creación de aspectos personalizados para Pacman
+:grey_question: Creación de Mapas personalizados
+:grey_question: Menú para explorar aspectos creados por otros jugadores
+
 
 
