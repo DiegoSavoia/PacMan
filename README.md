@@ -22,6 +22,32 @@ Este proyecto se encuentra integrado por el siguiente equipo de trabajo:
 
 Siendo todos los integrantes del equipo alumnos de 6° año de Programación en la escuela secundaria EPET N°12, decidimos recrear el famoso juego PacMan como parte de un proyecto integrador para el Laboratorio de Construcción de Software, materia que todos cursamos en común. Nuestro objetivo colectivo es poder finalizar este juego antes del fin del ciclo lectivo.
 
+<h2> Estructura del proyecto </h2>
+
+ - components
+
+    Componentes reutilizables para los distintos archivos HTML
+
+ - css
+
+    Hojas de estilo del proyecto
+
+ - data-base
+
+    Contenido relacionado a la base de datos
+
+ - functions
+
+    Funciones en JavaScript
+
+ - html
+
+    Archivos HTML
+
+ - img
+
+    Colección de cada una de las imágenes utilizadas en el proyecto
+
 <h2>Tareas realizadas </h2>
 
 El siguiente es el listado de las tareas ya realizadas, junto al miembro del equipo que se ha encargado de hacerlas.
