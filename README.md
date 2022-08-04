@@ -24,27 +24,27 @@ Siendo todos los integrantes del equipo alumnos de 6° año de Programación en 
 
 <h2> Estructura del proyecto </h2>
 
- - components
+ - **components**
 
     Componentes reutilizables para los distintos archivos HTML <br/>
 
- - css
+ - **css**
 
     Hojas de estilo del proyecto <br/>
 
- - data-base
+ - **data-base**
 
     Contenido relacionado a la base de datos <br/>
 
- - functions
+ - **functions**
 
     Funciones en JavaScript <br/>
 
- - html
+ - **html**
 
     Archivos HTML <br/>
 
- - img
+ - **img**
 
     Colección de cada una de las imágenes utilizadas en el proyecto <br/>
 
