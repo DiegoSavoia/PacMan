@@ -11,7 +11,7 @@
 <body class="stackedit">
   <div class="stackedit__html"><!-- markdownlint-disable-next-line-->
     <p align="center">
-        <img width="150" src="img/pac man logo.webp" alt="PacMan">
+        <img width="150" src="img/logo.png" alt="PacMan">
     </p>
 
     <h1 align="center">PacMan</h1>
