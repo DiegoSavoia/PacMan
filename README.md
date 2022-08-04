@@ -4,11 +4,11 @@
 
 <img width="400" src="img/logo.png" alt="PacMan">
 
-</p>
+</p> <br/>
 
 <h1 align="center">PacMan</h1>
 
-**PacMan** es una representación moderna del clásico videojuego de *arcade*. Consiste en una nueva versión de escritorio de la aventura de nuestro viejo amigo amarillo y sus no tan amigos coloridos, y cuenta con novedosas funcionalidades y accesorios.
+**PacMan** es una representación moderna del clásico videojuego de *arcade*. Consiste en una nueva versión de escritorio de la aventura de nuestro viejo amigo amarillo y sus no tan amigos coloridos, y cuenta con novedosas funcionalidades y accesorios. <br/>
 
 <h2>¿Quiénes somos? </h2>
 
@@ -16,17 +16,17 @@ Este proyecto se encuentra integrado por el siguiente equipo de trabajo:
 
  - Martina Belén Coria
  - Diego Agustín Savoia
- - Celina Burunov Guerrero
+ - Celina Burunov Guerrero <br/>
 
 <h2>Nuestra motivación </h2>
 
-Siendo todos los integrantes del equipo alumnos de 6° año de Programación en la escuela secundaria EPET N°12, decidimos recrear el famoso juego PacMan como parte de un proyecto integrador para el Laboratorio de Construcción de Software, materia que todos cursamos en común. Nuestro objetivo colectivo es poder finalizar este juego antes del fin del ciclo lectivo.
+Siendo todos los integrantes del equipo alumnos de 6° año de Programación en la escuela secundaria EPET N°12, decidimos recrear el famoso juego PacMan como parte de un proyecto integrador para el Laboratorio de Construcción de Software, materia que todos cursamos en común. Nuestro objetivo colectivo es poder finalizar este juego antes del fin del ciclo lectivo. <br/>
 
 <h2> Entornos, herramientas y lenguajes </h2>
 
 Para llevar a cabo el proyecto estaremos utilizando distinto lenguajes tales como JavaScript, HTML y CSS. En cuanto a los entornos, nos encontraremos utilizando Visual Studio Code para programar y Electron para ejecutar la aplicación.
 
-Contaremos además con algunos programas y herramientas adicionales tales como NodeJS, MongoDB, GitHub, StackEdit, Coolors, entre otros.
+Contaremos además con algunos programas y herramientas adicionales tales como NodeJS, MongoDB, GitHub, StackEdit, Coolors, entre otros. <br/>
 
 <h2> Estructura del proyecto </h2>
 
