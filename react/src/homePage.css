@@ -1,0 +1,120 @@
+*{
+  margin: 0;
+  user-select: none;
+}
+
+html, body {
+  background-color:black;
+  height: 100%;
+}
+
+#menu-inicio {
+  text-align: center;
+  margin: auto;
+  clear: both;
+}
+
+#logo {
+  text-align: center;
+  margin-top: 5%;
+  width:35%;
+}
+
+#menu {
+  color: white;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 120%;
+  text-align: center;
+  margin-top: 4%;
+}
+
+#options {
+  margin: auto;
+  text-align: center;
+  margin-top: 3%;
+}
+
+.button {
+  color: white;
+  font-family: 'Press Start 2P', cursive;
+  border-style: groove;
+  border-color: gray;
+  border-radius: 10px;
+  width: 40%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  padding: 1% 0 0.7% 0;
+  user-select: none;
+}
+
+.zoom {
+  transition: transform .2s; 
+}
+
+.zoom:hover {
+  transform: scale(1.02); 
+  background-color: #ffffff3b;
+}
+
+@media only screen and (max-width:1150px){
+
+  #logo {
+      width: 45%;
+  }
+
+  #menu {
+      margin-top: 5%;
+  }
+  
+  #options {
+      margin-top: 5%;
+  }
+  
+  .button {
+      margin-top: 2%;
+      padding: 1.5% 0 1% 0;
+  }
+}
+
+@media only screen and (min-width:1150px){
+
+  #logo {
+      width:35%;
+  }
+  
+  #menu {
+      margin-top: 3.5%;
+  }
+  
+  #options {
+      margin-top: 4%;
+  }
+  
+  .button {
+      margin-top: 2%;
+      padding: 1.3% 0 0.8% 0;
+  }
+}
+
+@media only screen and (min-width:1366px){
+
+  #logo {
+      width:35%;
+  }
+  
+  #menu {
+      margin-top: 4%;
+  }
+  
+  #options {
+      margin-top: 3%;
+  }
+  
+  .button {
+      margin-top: 2%;
+      padding: 1% 0 0.7% 0;
+  }
+}
+

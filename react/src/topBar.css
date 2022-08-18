@@ -1,0 +1,47 @@
+#topbar {
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(to right, red , yellow);
+}
+
+#name {
+    color: #bababa;
+    width: 100%;
+    -webkit-app-region: drag;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 1%;
+}
+
+.topbar_buttons {
+    float: right;
+    height: inherit;
+    border: none;
+    background-color: transparent;
+    width: 40px;   
+}
+
+.minimize {
+    background-image: url(../public/img/minimize.png);    
+    background-size: 40px 31px;   
+}
+
+.maximize {
+    background-image: url(../public/img/maximize.png);
+    background-repeat: no-repeat;
+    background-size: 40px 30px;    
+}
+
+.restore {
+    background-image: url(../public/img/restore.png);
+    background-repeat: no-repeat;
+    background-size: 40px 30px;    
+}
+
+.close{
+    background-image: url(../public/img/close.png);
+    background-repeat: no-repeat;
+    background-size: 40px 30px;    
+}
