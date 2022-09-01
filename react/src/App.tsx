@@ -1,6 +1,7 @@
 import React from 'react';
 import HomePage from './HomePage';
-import TopBar from './TopBar';
+import TopBar from './componentes/TopBar';
+import Back from './componentes/Back';
 import Login from './login';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
     <div className="App">
     <TopBar/>
     <HomePage />
+    <Back/>
     </div>
   );
 }
