@@ -1,8 +1,26 @@
-import React from 'react';
+import React, { useState } from 'react';
 import logo from './logo.svg';
-import './App.css';
+import './login.css';
 
-function login() {
+const userH = "carlos"
+const passwordH = "1234"
+
+function Login() {
+
+    const [user, setUser] = useState("")
+    const [password, setPassword] = useState("")
+
+    function login() {
+        if (userH === user && passwordH === password){
+            console.log("Login exitoso")
+        } else
+            console.log("Login fallido")
+    }
+
+    function signup(){
+        console.log("Todavia no te podes registrar")
+    }
+
   return (
     <div className="login"><script id="replace_with_navbar" src="../functions/nav.js"></script> 
     <div className="container">
@@ -12,18 +30,18 @@ function login() {
             <form action="" className="form">
                 <div id="userHolder">
                     
-                    <input id="user" type="text" placeholder="Username"/>
+                    <input onChange={e => setUser(e.target.value)} id="user" type="text" placeholder="Username"/>
                 </div>
                
                 <div id="passwordHolder">
-                    <input id="password" type="password" placeholder="Password"/> 
+                    <input onChange={e => setPassword(e.target.value)} id="password" type="password" placeholder="Password"/> 
                     <a id="ojo" className="eye closed">
                     </a>
                 </div>
             </form>
             
-            <button className="button zoom" type="submit">LOGIN</button>
-            <p className="account"><a href="#">Create Account ?</a></p>
+            <button onClick={e => login()} className="button zoom" type="submit">LOGIN</button>
+            <p onClick={e => signup()} className="account"><a href="#">Create Account ?</a></p>
             <script id="replace_with_backBtn" src="../functions/back.js"></script>
         </div>
       
@@ -33,4 +51,4 @@ function login() {
   );
 }
 
-export default login;
+export default Login;
