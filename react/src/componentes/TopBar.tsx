@@ -1,8 +1,8 @@
 import React from 'react';
-import minimize from './public/img/minimize.png';
-import close from './public/img/close.png';
-import maximize from './public/img/maximize.png';
-import restore from './public/img/restore.png';
+// import minimize from '../public/img/minimize.png';
+// import close from './public/img/close.png';
+// import maximize from './public/img/maximize.png';
+// import restore from './public/img/restore.png';
 import './topBar.css';
 
 function TopBar() {

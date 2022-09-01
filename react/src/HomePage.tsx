@@ -1,6 +1,16 @@
 import "./homePage.css"
 import logo from './public/img/logo.png';
 function HomePage(){
+    function redirectScore(): void {
+        throw new Error("Function not implemented.")
+    }
+    function redirectSkins(): void {
+        throw new Error("Function not implemented.")
+    }
+    
+    function redirectLogin(): void {
+        throw new Error("Function not implemented.")
+    }
     return(
         
         <div id="menu-inicio">
@@ -21,14 +31,5 @@ function HomePage(){
 }
 export default HomePage
 
-function redirectScore(): void {
-    throw new Error("Function not implemented.")
-}
-function redirectSkins(): void {
-    throw new Error("Function not implemented.")
-}
 
-function redirectLogin(): void {
-    throw new Error("Function not implemented.")
-}
 
