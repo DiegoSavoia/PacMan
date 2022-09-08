@@ -25,7 +25,8 @@ function createWindow() {
     }
   })
 
-  mainWindow.loadFile('html/index.html')
+  //mainWindow.loadFile('html/index.html')
+  mainWindow.loadURL("http://localhost:3000")
 
   ipcMain.on("minimizeApp", () => {
     mainWindow.minimize()
