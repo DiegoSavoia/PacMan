@@ -3,18 +3,20 @@ import HomePage from './HomePage';
 import TopBar from './componentes/TopBar';
 import Back from './componentes/Back';
 import Login from './login';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
 
-  if(true)
-    return (
-      <Login />
-    )
   return (
     <div className="App">
-    <TopBar/>
-    <HomePage />
-    <Back/>
+      <TopBar />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Login />} />
+          <Route path="/homepage" element={<HomePage />} />
+        </Routes>
+      </BrowserRouter>
+      {/*<Back />*/}
     </div>
   );
 }
