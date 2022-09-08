@@ -7,7 +7,7 @@ import './topBar.css';
 
 function TopBar() {
   return (
-<div id="topbar">
+<div className="Topbar" id="topbar">
     <p id="name">PacMan</p>
     <button className="topbar_buttons minimize" id="minimize" title="Minimize"></button>
     <button className="topbar_buttons maximize" id="maximize" title="Maximize"></button>

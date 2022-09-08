@@ -3,9 +3,9 @@
     list-style: none;
     text-decoration: none;
     color: white;
-   overflow: hidden;
+   
 }
-.Login html,body{
+html,body .Login {
     background-image: url(../public/img/login-background.png);
     background-size:cover;
     background-repeat: no-repeat;
@@ -25,7 +25,6 @@
     background-color: rgba(0, 0, 0, 0.868);
     border: rgba(255, 255, 255, 0.626) 2px solid;
     letter-spacing: 2px;
-    margin: 10%;
     font-size: large;
     border-radius: 10px;
     position: relative;
