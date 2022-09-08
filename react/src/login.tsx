@@ -1,18 +1,21 @@
 import React, { useState } from 'react';
 import logo from './logo.svg';
 import './login.css';
+import { useNavigate } from 'react-router-dom';
 
 const userH = "carlos"
 const passwordH = "1234"
 
-function Login() {
 
+function Login() {
+    const navigate = useNavigate();
     const [user, setUser] = useState("")
     const [password, setPassword] = useState("")
 
     function login() {
         if (userH === user && passwordH === password){
             console.log("Login exitoso")
+            navigate("/homepage")
         } else
             console.log("Login fallido")
     }
