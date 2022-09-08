@@ -27,7 +27,7 @@ function TopBar() {
   })
 
   return (
-    <div id="topbar">
+    <div className='Topbar' id="topbar">
       <p id="name">PacMan</p>
       <button className="topbar_buttons minimize" onClick={e => ipcRenderer.send('minimizeApp')} title="Minimize" ></button>
       <button className={"topbar_buttons " + (isMaximized ? "maximize" : "restore")} onClick={e => ipcRenderer.send('maximizeRestoreApp')} title="Maximize"></button>
