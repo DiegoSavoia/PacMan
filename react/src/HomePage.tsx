@@ -1,6 +1,9 @@
+import { useNavigate } from "react-router-dom";
 import "./homePage.css"
 import logo from './public/img/logo.png';
 function HomePage() {
+    const navigate = useNavigate()
+
     function redirectScore(): void {
         throw new Error("Function not implemented.")
     }
@@ -19,7 +22,7 @@ function HomePage() {
                 <div id="options">
                     <h6 className="button zoom" id="play" onClick={e => redirectLogin()} >Play</h6>
                     <h6 className="button zoom" id="score" onClick={e => redirectScore()}>Score</h6>
-                    <h6 className="button zoom" id="skin" onClick={e => redirectSkins()}>Skin</h6>
+                    <h6 className="button zoom" id="skin" onClick={e => navigate("/menuskins")}>Skin</h6>
                     <h6 className="button zoom" id="exit">Exit</h6>
                 </div>
             </div>
