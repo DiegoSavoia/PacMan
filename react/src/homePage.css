@@ -3,24 +3,24 @@
   user-select: none;
 }
 
-.Homepage,html, body {
+html, body {
   background-color:black;
   height: 100%;
 }
 
-.Homepage #menu-inicio {
+#menu-inicio {
   text-align: center;
   margin: auto;
   clear: both;
 }
 
-.Homepage #logo {
+#logo {
   text-align: center;
   margin-top: 5%;
   width:35%;
 }
 
-.Homepage #menu {
+#menu {
   color: white;
   font-family: 'Press Start 2P', cursive;
   font-size: 120%;
@@ -28,13 +28,13 @@
   margin-top: 4%;
 }
 
-.Homepage #options {
+#options {
   margin: auto;
   text-align: center;
   margin-top: 3%;
 }
 
-.Homepage .button {
+.button {
   color: white;
   font-family: 'Press Start 2P', cursive;
   border-style: groove;
@@ -49,30 +49,30 @@
   user-select: none;
 }
 
-.Homepage .zoom {
+.zoom {
   transition: transform .2s; 
 }
 
-.Homepage .zoom:hover {
+.zoom:hover {
   transform: scale(1.02); 
   background-color: #ffffff3b;
 }
 
 @media only screen and (max-width:1150px){
 
-  .Homepage #logo {
+  #logo {
       width: 45%;
   }
 
-  .Homepage #menu {
+  #menu {
       margin-top: 5%;
   }
   
-  .Homepage #options {
+  #options {
       margin-top: 5%;
   }
   
-  .Homepage .button {
+  .button {
       margin-top: 2%;
       padding: 1.5% 0 1% 0;
   }
@@ -80,19 +80,19 @@
 
 @media only screen and (min-width:1150px){
 
-  .Homepage #logo {
+  #logo {
       width:35%;
   }
   
-  .Homepage #menu {
+  #menu {
       margin-top: 3.5%;
   }
   
-  .Homepage #options {
+  #options {
       margin-top: 4%;
   }
   
-  .Homepage .button {
+  .button {
       margin-top: 2%;
       padding: 1.3% 0 0.8% 0;
   }
@@ -100,19 +100,19 @@
 
 @media only screen and (min-width:1366px){
 
-  .Homepage #logo {
+  #logo {
       width:35%;
   }
   
-  .Homepage #menu {
+  #menu {
       margin-top: 4%;
   }
   
-  .Homepage #options {
+  #options {
       margin-top: 3%;
   }
   
-  .Homepage .button {
+  .button {
       margin-top: 2%;
       padding: 1% 0 0.7% 0;
   }

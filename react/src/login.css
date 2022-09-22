@@ -5,14 +5,14 @@
     color: white;
    
 }
-html,body .Login {
+html,body{
     background-image: url(../public/img/login-background.png);
     background-size:cover;
     background-repeat: no-repeat;
     height: 100%;
     width: 100%;
 }
-.Login .container{
+.container{
     height: calc(100% - 30px);
     display: flex;
     justify-content: center;
@@ -21,7 +21,7 @@ html,body .Login {
     align-items: center;
 
 }
-.Login #login{
+#login{
     background-color: rgba(0, 0, 0, 0.868);
     border: rgba(255, 255, 255, 0.626) 2px solid;
     letter-spacing: 2px;
@@ -33,7 +33,7 @@ html,body .Login {
     padding: 30px 30px;
     border-radius: 20px;
 }
-.Login .login-text{
+.login-text{
     font-family: 'Press Start 2P', cursive;
     font-size:3vw;
     width: 16vw;
@@ -45,17 +45,17 @@ html,body .Login {
     margin: auto;
     user-select: none;
 }
-.Login ::placeholder { 
+::placeholder { 
     color: rgb(165, 165, 165);
     opacity: 1; 
     user-select: none;
 }
-.Login .form{
+.form{
     display:flex;
     flex-direction: column;
    
 }
-.Login input{
+input{
     border: none;
     background-color: transparent;
     color: rgb(255, 255, 255);
@@ -71,7 +71,7 @@ html,body .Login {
     clear: both;
 }
 
-.Login .eye{
+.eye{
     position: absolute;
     right: 1vw;
     bottom: 0.2vw;
@@ -79,7 +79,7 @@ html,body .Login {
     width: 2em;
     height: 1em;
 }
-.Login .closed{
+.closed{
     background-image: url(../public/img/eyeclosed.png);
     background-repeat: no-repeat;
     background-size:1.5em;    
@@ -87,7 +87,7 @@ html,body .Login {
     background-color: transparent;
     border:none;
 }
-.Login .open{
+.open{
     background-image: url(../public/img/eyeopen.png);
     background-repeat: no-repeat;
     background-size:1.5em;    
@@ -97,11 +97,11 @@ html,body .Login {
 }
 
 
-.Login #passwordHolder{
+#passwordHolder{
 position: relative;
 }
 
-.Login input:focus {
+input:focus {
     outline: none;
     border-bottom: 2px solid pink ;
     animation: border 1s;
@@ -115,7 +115,7 @@ position: relative;
     100% {width: 97%;}
 }
 
-.Login .button {
+.button {
     color: white;
     font-family: 'Press Start 2P', cursive;
     border-style: groove;
@@ -129,18 +129,18 @@ position: relative;
     user-select: none;
     background-color: transparent;
 }
-.Login .account{
+.account{
     font-family: 'Roboto', sans-serif;
     font-size: 1em;
     margin-top: 10%;
     user-select: none;
 }
 
-.Login .zoom {
+.zoom {
     transition: transform .2s; 
 }
   
-.Login .zoom:hover {
+.zoom:hover {
     transform: scale(1.02); 
     background-color: #ffffff3b;
 }
