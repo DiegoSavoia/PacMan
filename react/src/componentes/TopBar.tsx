@@ -27,11 +27,11 @@ function TopBar() {
   })
 
   return (
-    <div className='Topbar' id="topbar">
+    <div className='Topbar'>
       <p id="name">PacMan</p>
-      <button className="topbar_buttons minimize" onClick={e => ipcRenderer.send('minimizeApp')} title="Minimize" ></button>
-      <button className={"topbar_buttons " + (isMaximized ? "maximize" : "restore")} onClick={e => ipcRenderer.send('maximizeRestoreApp')} title="Maximize"></button>
-      <button className="topbar_buttons close" id="close" title="Close"></button>
+      <button className="Topbar minimize" onClick={e => ipcRenderer.send('minimizeApp')} title="Minimize" ></button>
+      <button className={"Topbar " + (isMaximized ? "maximize" : "restore")} onClick={e => ipcRenderer.send('maximizeRestoreApp')} title="Maximize"></button>
+      <button className="Topbar close" onClick={e => ipcRenderer.send('closeApp')} id="close" title="Close"></button>
     </div>
   );
 }
