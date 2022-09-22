@@ -1,4 +1,4 @@
-.Topbar #topbar {
+.Topbar {
     height: 30px;
     display: flex;
     flex-direction: row;
@@ -15,7 +15,7 @@
     margin-left: 1%;
 }
 
-.Topbar .topbar_buttons {
+.Topbar button {
     float: right;
     height: inherit;
     border: none;
