@@ -21,7 +21,7 @@ function Login() {
     }
 
     function signup() {
-        console.log("Todavia no te podes registrar")
+        console.log("Todavía no te podes registrar")
     }
 
     return (
