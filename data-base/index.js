@@ -14,6 +14,20 @@ let test =new OPromise((resolve,reject)=>{
  .catch((error)=>{
     console.log("ERROR");
  })
+
+ const scoreSchema = new mongoose.Schema({
+    rank:Number,
+    name:String,
+    score:Number,
+ })
+
+ const score = mongoose.model('Score', scoreSchema)
+
+ module.exports = {
+   ScoresFind: () => Score.find()
+ }
+ 
+ /*
  const taskSchema = new mongoose.Schema({
     title:String,
     description:String,
@@ -35,5 +49,5 @@ tarea1.save().then(result =>{
 }).catch(error =>{
     console.log("ERROR",error);
 })
-
 let tasks=[]
+*/

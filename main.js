@@ -10,10 +10,10 @@ require('electron-reload')(__dirname, {
 function createWindow() {
   const mainWindow = new BrowserWindow({
     width: 800,
-   minWidth:800,
-   minHeight:600,
+    minWidth: 800,
+    minHeight: 600,
     height: 600,
-    
+
     frame: false,
     transparent: true,
     webPreferences: {
@@ -71,4 +71,25 @@ app.whenReady().then(() => {
 
 app.on('window-all-closed', function () {
   if (process.platform !== 'darwin') app.quit()
+})
+
+app.on("addScore", function () {
+  const score1 = new score({
+    rank: 2,
+    name: "Dalton",
+    score: 99999,
+  })
+  score1.save().then(result => {
+    console.log("SAVE", result);
+  }).catch(error => {
+    console.log("ERROR", error);
+  })
+})
+
+ipcMain.on("getScores", (e) => {
+  ScoresFind().then(scoresQuery => {
+    console.log(scoresQuery);
+    let scores = scoresQuery.map(e => e._doc)
+    e.reply("scores", scores)
+  })
 })
