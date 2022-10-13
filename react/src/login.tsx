@@ -21,7 +21,7 @@ function Login() {
     }
 
     function signup(){
-        console.log("Todavia no te podes registrar")
+        navigate("/Signup")
     }
 
   return (
@@ -44,12 +44,12 @@ function Login() {
             </form>
             
             <button onClick={e => login()} className="button zoom" type="submit">LOGIN</button>
-            <p onClick={e => signup()} className="account"><a href="#">Create Account ?</a></p>
+            <p onClick={e => signup()} className="account">Create Account ?</p>
             <script id="replace_with_backBtn" src="../functions/back.js"></script>
         </div>
       
     </div>
-    <script src='../functions/login.js'></script>
+   
     </div>
   );
 }
