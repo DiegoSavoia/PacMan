@@ -20,13 +20,8 @@ function Login() {
             console.log("Login fallido")
     }
 
-<<<<<<< HEAD
     function signup(){
         navigate("/Signup")
-=======
-    function signup() {
-        console.log("Todavía no te podes registrar")
->>>>>>> a07bb9fe8c5423170127a890dfc0f1db94e1e897
     }
 
   return (

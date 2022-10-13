@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import './singup.css';
+import './signup.css';
 import { useNavigate } from 'react-router-dom';
+const mongoose= require('mongoose');
 function Signup() {
     const navigate = useNavigate();
     const [user, setUser] = useState("")
