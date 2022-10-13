@@ -24,7 +24,7 @@ Siendo todos los integrantes del equipo alumnos de 6° año de Programación en 
 
 <h2> Entornos, herramientas y lenguajes </h2>
 
-Para llevar a cabo el proyecto estaremos utilizando distinto lenguajes tales como JavaScript, HTML y CSS. En cuanto a los entornos, nos encontraremos utilizando Visual Studio Code para programar y Electron para ejecutar la aplicación.
+Para llevar a cabo el proyecto estaremos utilizando distintos lenguajes tales como JavaScript, HTML y CSS. En cuanto a los entornos, nos encontraremos utilizando Visual Studio Code para programar y Electron para ejecutar la aplicación.
 
 Contaremos además con algunos programas y herramientas adicionales tales como NodeJS, MongoDB, GitHub, StackEdit, Coolors, entre otros. <br/>
 
