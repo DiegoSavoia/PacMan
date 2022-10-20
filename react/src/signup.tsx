@@ -1,13 +1,29 @@
 import React, { useState } from 'react';
-import './signup.css';
 import { useNavigate } from 'react-router-dom';
-const mongoose= require('mongoose');
+import mongoose from 'mongoose';
+
+const signUp =new mongoose.Schema({
+    userName:{
+        type:String,
+        required:true
+    
+    },
+    userPassword:{
+        type:String,
+        required:true
+    },
+    date:{
+        type:Date,
+        default:Date.now
+    }
+        
+})
 function Signup() {
     const navigate = useNavigate();
     const [user, setUser] = useState("")
     const [password, setPassword] = useState("")
     const [confirm, setConfirm] = useState("")
-    const [eye, setEye]=useState(true)
+    const [isOpen,setEye]=useState(false)
 
     function login() {
         navigate("/Login")
@@ -24,25 +40,25 @@ function Signup() {
     }
 
   return (
-    <div className="container">
+    <div className="login">
         <div id="login">
           
-            <h1 className="signUp-text">SIGN UP</h1>
+            <h1 className="login-text">SIGN UP</h1>
             <form action="" className="form">
                 <div id="RuserHolder">
                     
                     <input onChange={e => setUser(e.target.value)} id="user" type="text" placeholder="Username"/>
                 </div>
                
-                <div id="RpasswordHolder">
-                    <input onChange={e => setPassword(e.target.value)} id="password" type="password" placeholder="Password"/> 
-                    <a id="ojo" className="eye closed">
-                    </a>
+                <div id="passwordHolder">
+                    <input onChange={e => setPassword(e.target.value)} id="password" type={isOpen? "text":"password"} placeholder="Password"/> 
+                    <span onClick={e=>setEye(p=>!p)} id="ojo" className={`eye ${isOpen? "open":"closed"}`}>
+                    </span>
                 </div>
-                <div id="RpasswordHolder">
-                    <input onChange={e => setConfirm(e.target.value)} id="ConfirmPassword" type="password" placeholder="Confirm password"/> 
-                    <a id="ojo" className="eye closed">
-                    </a>
+                <div id="passwordHolder">
+                <input onChange={e => setPassword(e.target.value)} id="password" type={isOpen? "text":"password"} placeholder="Password"/> 
+                    <span onClick={e=>setEye(p=>!p)} id="ojo" className={`eye ${isOpen? "open":"closed"}`}>
+                    </span>
                 </div>
             </form>
             

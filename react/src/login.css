@@ -12,14 +12,18 @@ html,body{
     height: 100%;
     width: 100%;
 }
-.container{
+#root,.App{
+    height: 100%;
+    width: 100%;
+}
+.login{
     height: calc(100% - 30px);
     display: flex;
     justify-content: center;
     flex-direction: row;
     align-content: center;
     align-items: center;
-
+    margin: auto;
 }
 #login{
     background-color: rgba(0, 0, 0, 0.868);
@@ -28,7 +32,7 @@ html,body{
     font-size: large;
     border-radius: 10px;
     position: relative;
-    min-width:35%;
+    min-width:40%;
     text-align: center;
     padding: 30px 30px;
     border-radius: 20px;
@@ -125,7 +129,6 @@ input:focus {
     margin-left: auto;
     margin-right: auto;
     margin-top:10%;
-    padding: 1% 1% 0.7% 1%;
     user-select: none;
     background-color: transparent;
 }
