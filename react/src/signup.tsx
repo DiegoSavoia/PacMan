@@ -1,7 +1,24 @@
 import React, { useState } from 'react';
 import './signup.css';
 import { useNavigate } from 'react-router-dom';
-const mongoose= require('mongoose');
+import mongoose from 'mongoose';
+
+const signUp =new mongoose.Schema({
+    userName:{
+        type:String,
+        required:true
+    
+    },
+    userPassword:{
+        type:String,
+        required:true
+    },
+    date:{
+        type:Date,
+        default:Date.now
+    }
+        
+})
 function Signup() {
     const navigate = useNavigate();
     const [user, setUser] = useState("")

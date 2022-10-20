@@ -11,7 +11,7 @@ function Login() {
     const navigate = useNavigate();
     const [user, setUser] = useState("")
     const [password, setPassword] = useState("")
-
+    const [isOpen,setEye]=useState(false)
     function login() {
         if (userH === user && passwordH === password){
             console.log("Login exitoso")
@@ -23,10 +23,10 @@ function Login() {
     function signup(){
         navigate("/Signup")
     }
+   
 
   return (
-    <div className="login"><script id="replace_with_navbar" src="../functions/nav.js"></script> 
-    <div className="container">
+    <div className="login"> 
         <div id="login">
           
             <h1 className="login-text">LOGIN</h1>
@@ -37,9 +37,9 @@ function Login() {
                 </div>
                
                 <div id="passwordHolder">
-                    <input onChange={e => setPassword(e.target.value)} id="password" type="password" placeholder="Password"/> 
-                    <a id="ojo" className="eye closed">
-                    </a>
+                    <input onChange={e => setPassword(e.target.value)} id="password" type={isOpen? "text":"password"} placeholder="Password"/> 
+                    <span onClick={e=>setEye(p=>!p)} id="ojo" className={`eye ${isOpen? "open":"closed"}`}>
+                    </span>
                 </div>
             </form>
             
@@ -50,7 +50,6 @@ function Login() {
       
     </div>
    
-    </div>
   );
 }
 

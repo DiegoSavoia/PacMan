@@ -1,7 +1,7 @@
 import { title } from 'process';
 import Back from './componentes/Back';
 import ScoreDisplay from './componentes/ScoreDisplay';
-import AddScore from './componentes/addScore';
+import AddScore from './componentes/AddScore';
 import './score.css';
 import Refresh from './componentes/Refresh';
 import { useState } from 'react';
@@ -10,7 +10,7 @@ const ipcRenderer = window.require("electron").ipcRenderer
 
 function Score() {
 
-    const [scorelist, setScoreList] = useState(false)
+    const [scorelist, setScoreList] = useState([])
 
     ipcRenderer.on("scores", (e: any, r: { rank: any; name: any; score: any; }[]) => {
         
