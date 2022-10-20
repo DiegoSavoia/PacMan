@@ -20,10 +20,16 @@ body{
 
 #high-score{
     display: flex;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 3%;
+    padding-top: 3%;
+    width: 100%;
+    flex-direction: column;
     
+}
+
+.Score-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 #rank{

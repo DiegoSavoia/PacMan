@@ -1,5 +1,6 @@
 const { app, BrowserWindow, ipcMain } = require('electron')
-const path = require('path')
+const path = require('path');
+const { ScoresFind, ScoreModel } = require('./data-base');
 require("./data-base");
 
 require('electron-reload')(__dirname, {
@@ -73,8 +74,8 @@ app.on('window-all-closed', function () {
   if (process.platform !== 'darwin') app.quit()
 })
 
-app.on("addScore", function () {
-  const score1 = new score({
+ipcMain.on("addScore", function () {
+  const score1 = new ScoreModel({
     rank: 2,
     name: "Dalton",
     score: 99999,

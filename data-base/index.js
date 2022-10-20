@@ -21,9 +21,10 @@ let test =new OPromise((resolve,reject)=>{
     score:Number,
  })
 
- const score = mongoose.model('Score', scoreSchema)
+ const Score = mongoose.model('Score', scoreSchema)
 
  module.exports = {
+   ScoreModel: Score,
    ScoresFind: () => Score.find()
  }
  
