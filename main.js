@@ -25,6 +25,7 @@ function createWindow() {
     }
   })
 
+  mainWindow.setAspectRatio(8/6)
   //mainWindow.loadFile('html/index.html')
   mainWindow.loadURL("http://localhost:3000")
 

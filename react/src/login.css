@@ -12,6 +12,10 @@ html,body{
     height: 100%;
     width: 100%;
 }
+#root,.App{
+    height: 100%;
+    width: 100%;
+}
 .login{
     height: calc(100% - 30px);
     display: flex;
@@ -19,7 +23,7 @@ html,body{
     flex-direction: row;
     align-content: center;
     align-items: center;
-
+    margin: auto;
 }
 #login{
     background-color: rgba(0, 0, 0, 0.868);
