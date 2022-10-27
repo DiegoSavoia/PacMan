@@ -42,6 +42,7 @@ html,body{
     font-size:3vw;
     width: 16vw;
     background:linear-gradient(to right, rgb(255, 0, 0), rgb(255, 255, 0),rgb(0, 234, 255),rgb(255, 0, 187)) ;
+    background-clip: inherit;
     -webkit-background-clip: text;
     color: transparent;
     margin-top: 10%;
