@@ -13,7 +13,7 @@ function HomePage() {
                 <img id="logo" src="../img/logo.png" />
                 <h3 id="menu">Menu</h3>
                 <div id="options">
-                    <h6 className="button zoom" id="play" onClick={e => navigate("/login")} >Play</h6>
+                    <h6 className="button zoom" id="play" onClick={e => navigate("/game")} >Play</h6>
                     <h6 className="button zoom" id="score" onClick={e => navigate("/score")}>Score</h6>
                     <h6 className="button zoom" id="skin" onClick={e => navigate("/menuskins")}>Skin</h6>
                     <h6 className="button zoom" id="exit">Exit</h6>
