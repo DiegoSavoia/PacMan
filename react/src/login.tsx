@@ -1,26 +1,35 @@
 import React, { useState } from 'react';
-import logo from './logo.svg';
+
 import './login.css';
 import { useNavigate } from 'react-router-dom';
-
-const userH = "carlos"
-const passwordH = "1234"
+import TextField from '@mui/material/TextField';
 
 
-function Login() {
+
+const ipcRenderer = window.require("electron").ipcRenderer
+
+function Login({changeUser}:{changeUser:(id:string)=> void}) {
+
     const navigate = useNavigate();
-    const [user, setUser] = useState("")
+    const [username, setUser] = useState("")
     const [password, setPassword] = useState("")
+    const [message, setMessage] = useState("")
     const [isOpen,setEye]=useState(false)
+    
     function login() {
-        if (userH === user && passwordH === password){
-            console.log("Login exitoso")
-            navigate("/homepage")
-        } else
-            console.log("Login fallido")
+        if (username && password){
+            let credentials={
+                username,password
+            }
+            ipcRenderer.invoke("login",credentials).then((r:string)=>{
+                navigate("/HomePage")
+                changeUser(r)
+            }) 
+        }else
+        setMessage("error login")
     }
 
-    function signup(){
+    function goSignup(){
         navigate("/Signup")
     }
    
@@ -31,8 +40,7 @@ function Login() {
           
             <h1 className="login-text">LOGIN</h1>
             <form action="" className="form">
-                <div id="userHolder">
-                    
+               <div id="userHolder">
                     <input onChange={e => setUser(e.target.value)} id="user" type="text" placeholder="Username"/>
                 </div>
                
@@ -44,7 +52,7 @@ function Login() {
             </form>
             
             <button onClick={e => login()} className="button zoom" type="submit">LOGIN</button>
-            <p onClick={e => signup()} className="account">Create Account ?</p>
+            <p onClick={e => goSignup()} className="account">Create Account ?</p>
             <script id="replace_with_backBtn" src="../functions/back.js"></script>
         </div>
       

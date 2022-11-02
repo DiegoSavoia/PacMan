@@ -15,7 +15,7 @@ let test =new OPromise((resolve,reject)=>{
     console.log("ERROR");
  })
 
- const scoreSchema = new mongoose.Schema({
+const scoreSchema = new mongoose.Schema({
     rank:Number,
     name:String,
     score:Number,
