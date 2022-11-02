@@ -51,7 +51,7 @@ function Login({changeUser}:{changeUser:(id:string)=> void}) {
                 </div>
             </form>
             
-            <button onClick={e => login()} className="button zoom" type="submit">LOGIN</button>
+            <button onClick={e => login()} className="btnlogin zoom" type="submit">LOGIN</button>
             <p onClick={e => goSignup()} className="account">Create Account ?</p>
             <script id="replace_with_backBtn" src="../functions/back.js"></script>
         </div>
