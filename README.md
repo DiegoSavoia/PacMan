@@ -2,7 +2,7 @@
 
 <p align="center">
 
-<img width="400" src="img/logo.png" alt="PacMan">
+<img width="400" src="react/public/img/logo.png" alt="PacMan">
 
 </p>
 
