@@ -10,12 +10,18 @@
     "electron": "^19.0.1"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/material": "^5.10.12",
+    "@mui/styled-engine-sc": "^5.10.6",
+    "bcrypt": "^5.1.0",
     "concurrently": "^7.4.0",
     "cross-env": "^7.0.3",
     "electron-reload": "^2.0.0-alpha.1",
     "materialize-css": "^1.0.0-rc.2",
     "mongoose": "^6.4.1",
     "nodemon": "^2.0.19",
+    "styled-components": "^5.3.6",
     "wait-on": "^6.0.1"
   }
 }

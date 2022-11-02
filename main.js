@@ -2,6 +2,7 @@ const { app, BrowserWindow, ipcMain } = require('electron')
 const path = require('path');
 const { ScoresFind, ScoreModel } = require('./data-base');
 require("./data-base");
+const { UserLogin, UserNew } = require("./data-base/User/UserMethods");
 
 require('electron-reload')(__dirname, {
   electron: path.join(__dirname, 'node_modules', '.bin', 'electron'),
@@ -12,8 +13,8 @@ function createWindow() {
   const mainWindow = new BrowserWindow({
     width: 800,
     minWidth: 800,
-    minHeight: 600,
-    height: 600,
+    minHeight: 800,
+    height: 800,
 
     frame: false,
     transparent: true,
@@ -94,4 +95,17 @@ ipcMain.on("getScores", (e) => {
     let scores = scoresQuery.map(e => e._doc)
     e.reply("scores", scores)
   })
+})
+ipcMain.handle("login", async (e, credentials) => {
+  console.log("credentials: ", credentials);
+  let { username, password } = credentials;
+  const r = await UserLogin(username, password);
+  return r.toHexString();
+})
+
+ipcMain.handle("signup", async (e, credentials) => {
+  console.log("credentials: ", credentials);
+  let { username, password } = credentials;
+  const r = await UserNew(username, password);
+  return r.toHexString();
 })

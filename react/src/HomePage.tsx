@@ -7,6 +7,7 @@ const ipcRenderer = window.require("electron").ipcRenderer
 function HomePage() {
     const navigate = useNavigate()
 
+    
     function redirectLogin(): void {
         throw new Error("Function not implemented.")
     }
@@ -18,7 +19,7 @@ function HomePage() {
                 <img id="logo" src="../img/logo.png" />
                 <h3 id="menu">Menu</h3>
                 <div id="options">
-                    <h6 className="button zoom" id="play" onClick={e => navigate("/login")} >Play</h6>
+                    <h6 className="button zoom" id="play" onKeyPress={e => navigate("/login")} >Play</h6>
                     <h6 className="button zoom" id="score" onClick={e => navigate("/score")}>Score</h6>
                     <h6 className="button zoom" id="skin" onClick={e => navigate("/menuskins")}>Skin</h6>
                     <h6 className="button zoom" id="exit" onClick={e => ipcRenderer.send('closeApp')}>Exit</h6>
