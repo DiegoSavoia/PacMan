@@ -14,6 +14,7 @@ function App() {
 
   return (
     <div className="App">
+      <audio src="music/PacMan-theme.mp3" itemType='mp3' autoPlay loop></audio>
       <TopBar />
       <BrowserRouter>
         <Routes>

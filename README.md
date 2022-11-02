@@ -2,7 +2,7 @@
 
 <p align="center">
 
-<img width="400" src="img/logo.png" alt="PacMan">
+<img width="400" src="react/public/img/logo.png" alt="PacMan">
 
 </p>
 
@@ -24,9 +24,9 @@ Siendo todos los integrantes del equipo alumnos de 6° año de Programación en 
 
 <h2> Entornos, herramientas y lenguajes </h2>
 
-Para llevar a cabo el proyecto estaremos utilizando distintos lenguajes tales como JavaScript, HTML y CSS. En cuanto a los entornos, nos encontraremos utilizando Visual Studio Code para programar y Electron para ejecutar la aplicación.
+Para llevar a cabo el proyecto estaremos utilizando distintos lenguajes tales como JavaScript, TypeScript, HTML y CSS. En cuanto a los entornos, nos encontraremos utilizando Visual Studio Code para programar, React para desarrollar la aplicación con herramientas web y Electron para compilar la aplicación creada en React como nativa e incorporar funcionalidades nativas de escritorio.
 
-Contaremos además con algunos programas y herramientas adicionales tales como NodeJS, MongoDB, GitHub, StackEdit, Coolors, entre otros. <br/>
+Contaremos además con algunos programas y herramientas adicionales tales como NodeJS, MongoDB, GitHub, StackEdit, Coolors, Tile Set, entre otros. <br/>
 
 <h2> Estructura del proyecto </h2>
 
@@ -71,6 +71,12 @@ El siguiente es el listado de las tareas ya realizadas, junto al miembro del equ
 :heavy_check_mark: Conceptos de tablas para futura base de datos y relación entre estas - ***Celina Burunov Guerrero***<br/>
 :heavy_check_mark: Función de navegación entre pantallas - ***Diego Agustín Savoia*** <br/>
 :heavy_check_mark: Creación de íconos para Top Bar - ***Martina Belén Coria*** <br/>
+:heavy_check_mark: Música temática de fondo - ***Martina Belén Coria*** <br/>
+:heavy_check_mark: HTML y CSS para Registro - ***Celina Burunov Guerrero*** <br/>
+:heavy_check_mark: Hardcode de Login - ***Celina Burunov Guerrero*** <br/>
+:heavy_check_mark: Tile Set del juego - ***Celina Burunov Guerrero*** <br/>
+
+
 
 <h2>Tareas a realizar </h2>
 

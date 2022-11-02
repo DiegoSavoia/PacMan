@@ -42,6 +42,7 @@ html,body{
     font-size:3vw;
     width: 16vw;
     background:linear-gradient(to right, rgb(255, 0, 0), rgb(255, 255, 0),rgb(0, 234, 255),rgb(255, 0, 187)) ;
+    background-clip: inherit;
     -webkit-background-clip: text;
     color: transparent;
     margin-top: 10%;
@@ -122,6 +123,7 @@ input:focus {
 .button {
     color: white;
     font-family: 'Press Start 2P', cursive;
+    font-size: 60%;
     border-style: groove;
     border-color: gray;
     border-radius: 10px;
@@ -132,6 +134,7 @@ input:focus {
     user-select: none;
     background-color: transparent;
 }
+
 .account{
     font-family: 'Roboto', sans-serif;
     font-size: 1em;
