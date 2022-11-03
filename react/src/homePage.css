@@ -53,7 +53,7 @@ html, body {
   transition: transform .2s; 
 }
 
-.zoom:hover {
+.zoom.selected {
   transform: scale(1.02); 
   background-color: #ffffff3b;
 }
