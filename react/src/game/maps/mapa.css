@@ -9,7 +9,7 @@
 .tile{
     width: 20px;
     height: 20px;
-    background-image: url("./tilesPacman.png");
+    background-image: url("./tileSet.png");
     background-size: 760px, 20px;
 }
 
@@ -29,4 +29,12 @@
     height: 20px;
     background-image: url("./tileGhosts.png");
     background-size: 320px, 20px;
+}
+
+.pacman{
+    width: 20px;
+    height: 20px;
+    background-image: url("./tilesPacman.png");
+    background-size: 160px, 20px;
+    position: absolute;
 }

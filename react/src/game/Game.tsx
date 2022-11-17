@@ -3,6 +3,7 @@ import innitGhost from "./innitGhost";
 import innitObject from "./innitObject";
 import innitMap from "./maps/innitMap";
 import "./maps/mapa.css"
+import Pacman from "./Pacman";
 
 
 function Game() {
@@ -36,6 +37,7 @@ function Game() {
                 </div>)}
             </div>
             )}
+            <Pacman></Pacman>
         </div>
 
     )
