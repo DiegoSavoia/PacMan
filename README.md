@@ -73,23 +73,22 @@ El siguiente es el listado de las tareas ya realizadas, junto al miembro del equ
 
 <h2>Tareas a realizar </h2>
 
-:heavy_check_mark: Creación de base de datos ***Diego Agustín Savoia***<br/>
-:heavy_check_mark:  Mapa del juego ***Diego Agustín Savoia***<br/>
-:heavy_check_mark:  Movimiento pacman ***Diego Agustín Savoia***<br/>
-:heavy_check_mark:  Movimiento fantasmas ***Celina Burunov***<br/>
-:grey_question: Modelos de Jugador <br/>
-:heavy_check_mark:  Modelos de Enemigos <br/> ***Diego Agustín Savoia y Celina Burunov***
-:heavy_check_mark:  Tile set (pacman, fantasmas,tablero,frutas,superfrutas) ***Celina Burunov*** <br/>
+:heavy_check_mark: Creación de base de datos - ***Diego Agustín Savoia***<br/>
+:heavy_check_mark:  Mapa del juego - ***Diego Agustín Savoia***<br/>
+:heavy_check_mark:  Movimiento pacman - ***Diego Agustín Savoia***<br/>
+:heavy_check_mark:  Animaciones del pacman - ***Diego Agustín Savoia***<br/>
+:heavy_check_mark:  Movimiento fantasmas - ***Celina Burunov***<br/>
+:heavy_check_mark: Modelos de Jugador - ***Celina Burunov***
+:heavy_check_mark:  Modelos de Enemigos <br/> - ***Celina Burunov***
+:heavy_check_mark:  Tile set (pacman, fantasmas,tablero,frutas,superfrutas) - ***Celina Burunov*** <br/>
 :grey_question: Sistema de Colisiones <br/>
 :grey_question: Funcionalidad de Contador <br/>
-:heavy_check_mark:  Conexión a base de datos <br/>
-:heavy_check_mark:  Login con base de datos ***Celina Burunov*** <br/>
-:heavy_check_mark:  Conexión a base de datos ***Diego Agustín Savoia***<br/>
-:heavy_check_mark:  Medidor de Puntajes Más Altos ***Diego Agustín Savoia***<br/>
-:heavy_check_mark: Envío de datos desde la app a la base de datos ***Celina Burunov*** <br/>
-:heavy_check_mark:Movimiento de menú con flechas ***Celina Burunov*** <br/>
+:heavy_check_mark:  Login con base de datos - ***Celina Burunov*** <br/>
+:heavy_check_mark:  Conexión a base de datos - ***Diego Agustín Savoia***<br/>
+:heavy_check_mark:  Medidor de Puntajes Más Altos - ***Diego Agustín Savoia***<br/>
+:heavy_check_mark: Envío de datos desde la app a la base de datos - ***Celina Burunov*** <br/>
+:heavy_check_mark:Movimiento de menú con flechas - ***Celina Burunov*** <br/>
 :grey_question: Creación de Aspectos Personalizados para Pacman <br/>
 :grey_question: Creación de Mapas Personalizados <br/>
-
 :grey_question: Menú para explorar Aspectos creados por otros jugadores <br/>
 ﻿<!-- markdownlint-disable-next-line-->
