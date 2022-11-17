@@ -1,10 +1,11 @@
 import { useEffect, useState } from "react"
+import Direction from "../models/Direction"
+import Position from "../models/Position"
 
-type Directions = "L" | "R" | "D" | "U"
 function useMovement() {
-    const [direction, setDirection] = useState<Directions>("L")
+    const [direction, setDirection] = useState<Direction>("L")
 
-    const [position, setPosition] = useState({ x: 0, y: 0 })
+    const [position, setPosition] = useState<Position>({ x: 0, y: 0 })
 
     const [isMoving, setMoving] = useState(false)
 
@@ -22,7 +23,7 @@ function useMovement() {
             }))
     }, [position, isMoving, direction])
 
-    function setNewDirection(NewDirection:Directions){
+    function setNewDirection(NewDirection:Direction){
         setDirection(NewDirection)
         setMoving (true)
     }

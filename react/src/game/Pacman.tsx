@@ -1,11 +1,20 @@
 import { useState } from "react";
+import Direction from "../models/Direction";
+import Position from "../models/Position";
 
-function Pacman() {
-    const [position, setPosition] = useState([])
-    const [direction, setDirection] = useState([])
+interface PacmanProps {
+    position: Position
+    direction: Direction
+    isMoving: boolean
+}
+
+function Pacman({position, direction, isMoving}: PacmanProps) {
 
     return (
-        <div className="pacman"></div>
+        <div style={{ 
+            top: position.y,
+            left: position.x
+         }} className={`pacman ${direction} ${isMoving ? "comer": ""}`}></div>
     )
 
 }
