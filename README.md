@@ -45,7 +45,7 @@ Contaremos además con algunos programas y herramientas adicionales tales como N
 
  - **data-base**
 
-    Contenido relacionado a la base de datos <br/
+    Contenido relacionado a la base de datos <br/>
 
 <h2>Tareas realizadas </h2>
 
