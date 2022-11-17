@@ -4,10 +4,6 @@ const { ScoresFind, ScoreModel } = require('./data-base');
 require("./data-base");
 const { UserLogin, UserNew } = require("./data-base/User/UserMethods");
 
-require('electron-reload')(__dirname, {
-  electron: path.join(__dirname, 'node_modules', '.bin', 'electron'),
-  hardResetMethod: 'exit'
-});
 
 function createWindow() {
   const mainWindow = new BrowserWindow({
