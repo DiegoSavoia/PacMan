@@ -8,40 +8,41 @@ import Pacman from "./Pacman";
 
 
 function Game() {
-    const ghost1 = useMovement()
-    const pacman = useMovement()
     const size = 20
+
+    const ghost1 = useMovement()
+    const pacman = useMovement({ x: 16 * size, y: 24 * size })
     const [mapa, setMapa] = useState(innitMap)
     const [objetos, setObjetos] = useState(innitObject)
     const [fantasmas, setFantasmas] = useState(innitGhost)
 
-    const handleKey=(e:KeyboardEvent)=>{
-        console.log("Keydown",e.key,":",e.code)
-        let{key}=e;
+    const handleKey = (e: KeyboardEvent) => {
+        console.log("Keydown", e.key, ":", e.code)
+        let { key } = e;
         console.log(key)
-         switch(key){
-            case"ArrowUp":
-            pacman.setDirection("U")
-            break;
-            case"ArrowDown":
-            pacman.setDirection("D")
-            break;
-            case"ArrowLeft":
-            pacman.setDirection("L")
-            break;
-            case"ArrowRight":
-            pacman.setDirection("R")
-            break;
-            
+        switch (key) {
+            case "ArrowUp":
+                pacman.setDirection("U")
+                break;
+            case "ArrowDown":
+                pacman.setDirection("D")
+                break;
+            case "ArrowLeft":
+                pacman.setDirection("L")
+                break;
+            case "ArrowRight":
+                pacman.setDirection("R")
+                break;
+
         }
     }
-    useLayoutEffect(()=>{
-        window.addEventListener("keydown",handleKey);
-        return()=>{
-            window.removeEventListener("keydown",handleKey)
+    useLayoutEffect(() => {
+        window.addEventListener("keydown", handleKey);
+        return () => {
+            window.removeEventListener("keydown", handleKey)
         }
     })
-    
+
 
     useEffect(() => {
         //ghost1.setDirection("D")
@@ -71,7 +72,13 @@ function Game() {
                 </div>)}
             </div>
             )}
-            <Pacman position={pacman.position} direction={pacman.direction} isMoving={pacman.isMoving}/>
+            <div style={{
+                width: size * mapa[0].length,
+                height: size * mapa.length,
+                position: 'absolute'
+            }}>
+                <Pacman position={pacman.position} direction={pacman.direction} isMoving={pacman.isMoving} />
+            </div>
             <div style={{
                 position: "absolute",
                 left: (ghost1.position.x * size) + "px",
