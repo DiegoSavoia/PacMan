@@ -1,5 +1,6 @@
 import { useEffect, useLayoutEffect, useState } from "react";
 import useMovement from "../Hooks/useMovement";
+import { modDirection } from "../models/Direction";
 import innitGhost from "./innitGhost";
 import innitObject from "./innitObject";
 import innitMap from "./maps/innitMap";
@@ -77,6 +78,11 @@ function Game() {
                 height: size * mapa.length,
                 position: 'absolute'
             }}>
+                <Pacman position={
+                    {y: Math.floor(pacman.position.y/20)*20 + modDirection[pacman.direction].y,
+                    x: Math.floor(pacman.position.x/20)*20 + modDirection[pacman.direction].x}
+
+                } direction={pacman.direction} isMoving={false} />
                 <Pacman position={pacman.position} direction={pacman.direction} isMoving={pacman.isMoving} />
             </div>
             <div style={{
