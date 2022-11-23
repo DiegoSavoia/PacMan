@@ -11,7 +11,13 @@ function useMovement(initialPosition = { x: 0, y: 0 }) {
     const [isMoving, setMoving] = useState(false)
 
     useEffect(() => {
-        let nextPosition = innitMap[Math.round(position.y/20) + modDirection[direction].y][Math.round(position.x/20) + modDirection[direction].x]
+        let MathMod = {
+            x: modDirection[direction].x === -1 ? Math.floor : modDirection[direction].x === 1 ? Math.ceil : Math.round,
+            y: modDirection[direction].y === -1 ? Math.floor : modDirection[direction].y === 1 ? Math.ceil : Math.round,
+        }
+        let nextPosition = innitMap
+        [MathMod.y((position.y + modDirection[direction].y) / 20)]
+        [MathMod.x((position.x + modDirection[direction].x) / 20)]
         if (isMoving && nextPosition == 0)
             setPosition(p => ({
                 x: p.x + modDirection[direction].x,
